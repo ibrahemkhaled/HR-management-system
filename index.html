@@ -12,14 +12,49 @@
 
 <nav>
 
-<a href="accounting.html">accounting page</a>
-<a href="index.html">home page</a>
+<a href="accounting.html">Accounting page</a><br>
+<a href="index.html">Home page</a>
 
 </nav>
 
 
     </header>
-    <main>
+    <main id="mainId">
+
+        <form id="form">
+            <fieldset>
+        <label for="name" id="nameL1">name</label>
+        <input type="text" id="nameI1" name="nameI1"><br>
+
+         
+        <label for="deabrtment">select Debartment :</label>
+        <select>
+
+            <option value="Administration">Administration</option>
+            <option value="markteing">markteing</option>
+            <option value="declopment">declopment</option>
+            <option value="Finance">Finance</option>
+
+        </select><br>
+
+        <label for="level">select level</label>
+        <select name="level" id="level">
+
+            <option value="Junior">Junior</option>
+            <option value="Mid-Senior">Mid-Senior</option>
+            <option value="Senior">Senior</option>
+
+        </select><br>
+
+
+        <label for="Image url" id="Image url">Image url : </label>
+        <input type="text" id="Image url"><br>
+        <input type="submit" name="submit" id="submit" value="Add employee">
+    </fieldset>
+    </form>
+    <div id="empdiv">
+
+    </div>
 
 
     </main>
